@@ -8,4 +8,12 @@
 # huynha15@uci.edu
 # 16106034
 
+n = int(input())
+corner = "+"
+middle = "-"
+wall = "|"
+space = " "
+front = "  "
+
+
 
