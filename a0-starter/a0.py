@@ -22,5 +22,8 @@ for i in range(0, n + 1):
         print(f"{corner}{middle}{corner}")
         print(f"{wall}{space}{wall}")
         print(f"{corner}{middle}{corner}{middle}{corner}")
-
+    elif n == 1 and i == 1:
+        print(f"{corner}{middle}{corner}")
+        print(f"{wall}{space}{wall}")
+        print(f"{corner}{middle}{corner}")
 
