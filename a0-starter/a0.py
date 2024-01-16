@@ -29,4 +29,6 @@ for i in range(0, n + 1):
     elif n > 1 and i == n:
         print(f"{front * (i - 1)}{wall}{space}{wall}")
         print(f"{front * (i - 1)}{corner}{middle}{corner}")
-
+    elif  n > 1 and i != (n + 1) and i != 0:
+        print(f"{front * (i - 1)}{wall}{space}{wall}")
+        print(f"{front * (i - 1)}{corner}{middle}{corner}{middle}{corner}")
